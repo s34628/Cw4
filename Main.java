@@ -14,10 +14,10 @@ public class Main {
 
         sklep.wyswietlWszystkieProdukty();
 
-        System.out.println("\n-> Tworzenie zamówienia dla Jana...");
+        System.out.println("\n-> Tworzenie zamówienia dla Pham...");
         sklep.utworzZamowienie(klient1, new Produkt[]{laptop, mysz}, new int[]{1, 1});
 
-        System.out.println("\n-> Tworzenie zamówienia dla Anny...");
+        System.out.println("\n-> Tworzenie zamówienia dla Czieslak...");
         sklep.utworzZamowienie(klient2, new Produkt[]{laptop}, new int[]{2});
 
         sklep.wyswietlZamowieniaKlienta(klient1.getId());

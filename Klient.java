@@ -11,7 +11,6 @@ public class Klient {
         this.czyStaly = czyStaly;
     }
 
-    // Gettery
     public int getId() { return id; }
     public String getImie() { return imie; }
     public String getNazwisko() { return nazwisko; }
